@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+}
+
+.ideais {
+    margin-top: 30px;
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sorteio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    background: url('arco_flecha_3d.png') no-repeat center center;
+    background-size: contain;
+}
+
+.sorteio-container button {
+    margin-top: 140px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #B8860B;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer img {
+    width: 30px;
+    vertical-align: middle;
+}
